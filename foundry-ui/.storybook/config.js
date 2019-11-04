@@ -2,6 +2,7 @@ import React from "react";
 import { configure, addDecorator, addParameters } from '@storybook/react';
 import { withA11y } from '@storybook/addon-a11y';
 import { ThemeProvider } from 'emotion-theming';
+import { Global, css } from '@emotion/core'
 
 const theme = {
   colors: {
@@ -41,6 +42,14 @@ addParameters({
 addDecorator(story => (
   <>
    <ThemeProvider theme={theme}>
+   <Global
+      styles={css`
+      @font-face {
+        font-family: 'Lato';
+        src: url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+      }
+      `}
+    />
     {story()}
     </ThemeProvider>
   </>

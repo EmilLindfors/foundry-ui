@@ -4,8 +4,7 @@ import { ThemeProvider } from "emotion-theming";
 import { render } from "react-dom";
 import {Button} from "./components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAbacus } from '@fortawesome/pro-regular-svg-icons'
-import { faArrowAltCircleLeft } from '@fortawesome/pro-regular-svg-icons'
+import { faAbacus, faArrowAltCircleLeft } from '@fortawesome/pro-regular-svg-icons'
 
 const theme = {
   colors: {
