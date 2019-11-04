@@ -1,0 +1,5 @@
+{
+    "name":"lindfors-foundry-dev",
+    "private": true,
+    "workspaces": ["foundry-ui", "site"]
+  }

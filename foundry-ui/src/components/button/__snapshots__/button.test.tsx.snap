@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> tests should render a primary and secondary button 1`] = `
+<div>
+  <button
+    class="css-vc6egq-Button"
+  >
+    test
+  </button>
+  <button
+    class="css-1doieix-Button"
+  >
+    test
+  </button>
+</div>
+`;
+
+exports[`<Button /> tests should render as default button 1`] = `
+<button
+  class="css-vc6egq-Button"
+>
+  test
+</button>
+`;
